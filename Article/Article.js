@@ -122,7 +122,16 @@ const data = [
     articleBox.append(para1);
     articleBox.append(para2);
     articleBox.append(para3);
-    articleBox.append(span);
+    articleBox.append(button);
+
+    // 3- Add CSS styles using classes
+    articleBox.classList.add("article-box");
+    title.classList.add("title");
+    date.classList.add("date");
+    para1.classList.add("para1");
+    para2.classList.add("para2");
+    para3.classList.add("para3");
+    button.classList.add("button");
 
   };
   /*
