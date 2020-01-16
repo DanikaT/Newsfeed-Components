@@ -103,6 +103,29 @@ const data = [
 
   Your function should take either an object as it's one argument, or 5 separate arguments mapping to each piece of the data object above.
 
+  */
+
+  function articleComponent(title, date, firstParagraph, secondParagraph, thirdParagraph) {
+    
+    // 1- Create HTML markup
+    const articleBox = document.createElement("div");
+    const title = document.createElement("h2");
+    const date = document.createElement("p");
+    const para1 = document.createElement("p");
+    const para2 = document.createElement("p");
+    const para3 = document.createElement("p");
+    const button = document.createElement("span");
+   
+    // 2- Define HTML structure
+    articleBox.append(title);
+    articleBox.append(date);
+    articleBox.append(para1);
+    articleBox.append(para2);
+    articleBox.append(para3);
+    articleBox.append(span);
+
+  };
+  /*
   Step 2: Add an event listener to the expandButton span. This event listener should toggle the class 'article-open' on the 'article' div.
 
   Step 3: return the entire component.
