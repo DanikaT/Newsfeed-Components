@@ -133,6 +133,13 @@ const data = [
     para3.classList.add("para3");
     button.classList.add("button");
 
+    // 4- Configure text/img content
+    title.textContent = data.title;
+    date.textContent = data.date;
+    para1e.textContent = data.firstParagraph;
+    para2.textContent = data.secondParagraph;
+    para3.textContent = data.thirdParagraph;
+    
   };
   /*
   Step 2: Add an event listener to the expandButton span. This event listener should toggle the class 'article-open' on the 'article' div.
